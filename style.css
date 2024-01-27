@@ -3,17 +3,78 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+.figmaDesign {
+  position: relative;
+  margin-bottom: 40px;
+}
+.magic-icon {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 300px !important;
+  width: 200px;
+}
+.magic-icon img {
+  max-height: 100%;
+  max-width: 100%;
+  /* object-fit: cover; */
+}
+.logodiv234 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auto-pro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+}
+.auto-pro > * {
+  width: 45% !important;
+}
+.auto-pro > * > img {
+  max-width: 100%;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.last-div {
+  padding: 0 !important;
+  max-width: 90vw;
+  margin: auto;
+}
 body {
   font-family: satos;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
-
-
+.contentSection {
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.hero-image {
+  width: 100%;
+}
+.hero-image img {
+  width: 100%;
+}
+.two-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.two-heading h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 @media screen and (max-width: 767px) {
-
   .public-beta {
     width: 100%;
   }
@@ -21,12 +82,6 @@ body {
   .image-figma img {
     display: none;
   }
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 367px) {
@@ -53,9 +108,11 @@ body {
     padding: 0;
     margin: 0;
   }
-
+  .hero-image {
+    max-width: 80vw;
+  }
   .hero-image img {
-    width: 100%;
+    width: 80%;
     margin: 0;
     padding: 0;
   }
@@ -174,7 +231,6 @@ body {
     margin: 0;
     width: 60%;
   }
-
 }
 
 /* first-section */
@@ -245,7 +301,7 @@ body {
 }
 
 .hero-image {
-  padding-right: 20px;
+  /* padding-right: 20px; */
 
   padding-left: 20px;
 }
